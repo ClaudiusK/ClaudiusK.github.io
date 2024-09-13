@@ -1,0 +1,50 @@
+# _config.yml
+
+# Site settings
+title: My Awesome Site
+description: A brief description of my awesome site.
+url: https://github.com/ClaudiusK/ClaudiusK.github.io
+baseurl: "" # Leave empty if not using a subdirectory
+
+# Author settings
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change this to any other theme you prefer
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files and directories from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Permalinks
+permalink: pretty
+
+# Social media links
+social:
+  twitter: your_twitter_handle
+  github: your_github_username
+  linkedin: your_linkedin_profile
+
+# Custom settings
+custom_setting: value
+
+# Build settings
+sass:
+  style: compressed
+
+# Other settings
+collections:
+  my_collection:
+    output: true
